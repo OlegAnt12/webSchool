@@ -1,0 +1,30 @@
+{
+  "name": "makarenko",
+  "version": "1.0.0",
+  "description": "\"site escolar para o IPIL\"",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "keywords": [
+    "makarenko",
+    "oleg",
+    "escola",
+    "ensino",
+    "educação",
+    "ipil",
+    "imil",
+    "luanda",
+    "industrial",
+    "instituto",
+    "medio"
+  ],
+  "author": "Oleg",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}

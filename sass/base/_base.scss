@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-size: cover;
+  box-sizing: border-box;
+  background-color: $color-white;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.pagina {
+  padding-top: 4.7rem;
+  min-height: 82rem;
+}

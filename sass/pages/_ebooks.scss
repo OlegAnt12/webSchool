@@ -1,0 +1,83 @@
+.area-seccao {
+  margin: 6rem 0 0 0;
+  padding: 0px 2.5rem;
+  background-color: $base-color;
+  width: 100%;
+  box-shadow: 0 -0.2rem 0.4rem rgba(0, 0, 0, $alpha: 0.25);
+}
+
+.seccao-desc {
+  padding: 14rem 2.5rem;
+  background-color: $color-white;
+  width: 100%;
+}
+
+.seccao-contacto {
+  padding: 12.5rem 2.5rem 12rem;
+  background: radial-gradient(
+    25px 20px,
+    circle,
+    rgb(255, 255, 255) 50%,
+    rgb(0, 0, 0) 30%
+  );
+  background: -webkit-radial-gradient(
+    42rem 10rem,
+    circle farthest-corner,
+    rgb(63, 64, 68),
+    rgb(30, 31, 36) 30%
+  );
+  width: 100%;
+  color: $color-white;
+  border-bottom: 1px solid #494949;
+}
+
+.seccao-meio {
+  /*padding: 2rem 2.5rem;
+  background-color: $color-white;
+  width: 100%;*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(208, 99, 62, 0.4)),
+    url(../img/fundos/IMG_1052.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 360px;
+}
+
+.seccao1 {
+  background-color: $fumo;
+  padding-top: 5rem;
+}
+
+.coluna {
+  position: relative;
+  width: 100%;
+  height: 137vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10rem;
+  background-color: $base-color;
+}
+
+.base-principal {
+  flex-grow: 1;
+  background-color: whitesmoke;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  padding-top: 10rem;
+  z-index: 2;
+}
+
+.footer {
+  display: block;
+  background-color: #242629;
+  position: relative;
+  z-index: 7;
+}
+
+.area-div {
+  height: 25rem;
+  background-color: #1c1c1c;
+}

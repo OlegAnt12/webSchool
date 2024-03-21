@@ -1,0 +1,60 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  background-color: $fumo;
+  /*font-size: 16px;*/
+  line-height: 1.7;
+}
+
+.esta-visivelmente-escondido {
+  border: 0 !important;
+  color: transparent;
+  height: 1px !important;
+  left: -999999px !important;
+  position: absolute !important;
+  width: 1px !important;
+}
+
+.titulo-t1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: $color-white;
+}
+
+.titulo-t3 {
+  font-size: 3.3rem;
+  font-weight: 500;
+}
+
+.titulo-t3-1 {
+  font-size: 3rem;
+  font-weight: 100;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 0.75em;
+  padding-bottom: 0;
+}
+
+.texto-centro {
+  text-align: center;
+}
+
+.paragrafo-desc {
+  font-size: 1.6rem;
+  text-align: justify;
+}
+
+.texto-plataforma {
+  font-size: 1.7rem;
+  color: whitesmoke;
+  text-align: center;
+  margin: 4rem 0 2rem 0;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.texto-t3 {
+  font-size: 3.4rem;
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
